@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Lora&family=Paprika&family=Patua+One&family=Sen&family=Vollkorn:wght@500&display=swap');
+
+
+body{
+  background-color: rgb(216, 230, 233);
+}
+
+.navbar{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navBrand{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 0.5px #000;
+  font-size:1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 35px 5px 5px;
+}
+.navcolor { 
+  background-color: rgb(95, 164, 166);
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+}
+.nav-item{
+  padding: auto 1rem;
+}
+.nav-links{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1.188rem 1.25rem;
+  margin: 0px 0.313rem;
+}
+.nav-links:hover{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-shadow: 1px 1px 0.5px rgb(106, 105, 105);
+}
+.active-link{
+  background-color: rgb(79, 137, 139);
+  border-radius: 0.313rem;
+}
+.navShadow{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.navBtn{
+  color: rgb(18, 119, 129);
+  padding: 0.25rem 0.938rem;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 1px 1px 2px rgb(69, 68, 68);
+  border: solid 2px rgb(250, 250, 250);
+  border-radius: 1.25rem;
+}
+.hidden{
+  display: none;
+}
+.userNav{
+  margin: auto 0.8rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 0;
+  margin:0.625rem 1.25rem 0px 0px;
+}
+.userNav ul{
+  padding: 0.625rem 1.25rem;
+  background-color: rgb(222, 236, 242);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+
+
+
+.homeImg{
+  display: table;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./component/image/woman-taking-notes.jpg");
+  /* opacity: 20%; */
+  width: 100%;
+  height: 100vh;
+}
+.home{
+  margin: 5rem auto;
+  width:45rem;
+  max-width:95vw;
+}
+.home h1{
+  margin-top: 10rem;
+  font-family: 'Paprika','Segoe UI', Tahoma,sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3);
+  font-size: 4rem;
+}
+.home hr{
+  width:20rem;
+  color: rgb(255, 255, 255);
+  margin: 1.5rem auto;
+}
+.home p{
+  font-style: italic;
+  font-size: 1.7rem;
+  text-align: center;
+  color: rgb(195, 195, 195);
+}
+.homeBtn-container{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 9rem;
+}
+.homeBtn{
+  padding: 0.625rem 1rem;
+  width:8.7rem;
+  background-color: rgb(69, 131, 137);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px  black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 3.12rem 6.25rem -1.25rem, rgba(0, 0, 0, 0.3) 0px 1.875rem 3.6rem 1.875rem, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-weight: 600;
+  font-size: 1.125rem;
+  border-radius: 1.875rem;
+}
+.homeBtn:hover{
+  color: rgb(9, 9, 9);
+  background-color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 0px  bisque;
+}
+
+
+
+.Dashboard_conatiner {
+  height: 95vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.aboutFont{
+  font-size: 1.12rem;
+}
+li {
+  list-style-type: none;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:99vw;
+}
+.cartoon_dash {
+  margin: auto 0rem;
+  width: 35rem;
+  height:35rem;
+  aspect-ratio: 1/1;
+}
+.CopyRight{
+  color:rgb(161, 159, 159);
+  position: absolute;
+  top:90vh;
+  left:35%;
+}
+
+
+
+
+.yourNotes{
+  font-family: 'Vollkorn', serif;
+  color: rgb(69, 131, 137);
+  margin: 6rem auto -0.5rem;
+  width: 80vw;
+  max-width: 70rem;
+} 
+
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+}
+#search{
+  width:45rem;
+  height:2rem;
+  padding: 1rem;
+  margin-right: 3rem;
+  border: 2px solid rgb(185, 188, 189);
+  border-radius: 10rem;
+}
+.filter-btn{
+  margin-right:1rem;
+}
+.filter-form{
+  padding:1rem ;
+}
+.filter-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.filter-footer button{
+  font-size: 0.83rem;
+  padding: 0.2rem 0.5rem;
+}
+
+
+
+.containerN{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 3rem;
+}
+.noteContainer{
+  margin: auto;
+  max-width: 69rem;
+}
+.grid-container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1.3rem;
+  box-sizing: border-box;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.NoShare{
+  padding:2rem 5rem;
+  font-size: 1.25rem;
+  font-weight: 650;
+  color: rgb(147, 146, 146);
+}
+
+.not-allowed{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:90vh;
+}
+.no-access {
+  color:rgb(175, 175, 175);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+
+.card-body{
+  height:15rem;
+  width:20rem;
+  margin-bottom: 1.5rem;
+  background-color: rgb(173, 214, 215);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 30px -20px, rgba(0, 0, 0, 0.3) 0px 10px 20px -30px, rgba(10, 37, 64, 0.35) 0px -2px 5px 0px inset;
+}
+.card-body hr{
+  margin: 0px;
+}
+.card-title{
+  font-family: 'Patua One', cursive;
+}
+.card-text{
+  font-family: 'Lora','Sen', sans-serif;
+  height:10rem;
+  margin:2px;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+.add-note{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(216, 230, 233);
+  color:rgb(69, 131, 137);
+  cursor:pointer;
+  font-size: 1.125rem;
+}
+.icon-plus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  height: 5rem;
+  width:5rem;
+  border: 3px dashed rgb(69, 131, 137);
+  border-radius: 100px;
+  padding-bottom: 12.6px;
+}
+.card-body:hover{
+  box-shadow: 2px 3px 10px rgb(59, 59, 59);
+}
+.cardDate{
+  display:flex;
+  justify-content: space-between;
+}
+.delIcon{
+  cursor:pointer;
+}
+.editIcon{
+  margin: 0rem 1rem;
+  cursor: pointer;
+}
+.open-note{
+  height: 80vh;
+  white-space: pre-wrap;
+  padding: 2rem 3rem;
+}
+.open-note h3{
+  margin:1rem 0rem;
+}
+
+
+
+
+
+.loginContainer{
+  display: flex;
+  margin: 10rem auto 1rem;
+  height: 31rem;
+  max-width: 51rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 30px -20px, rgba(0, 0, 0, 0.3) 0px 10px 20px -30px, rgba(10, 37, 64, 0.35) 0px -2px 5px 0px inset;
+}
+#loginImg{
+  margin: 2rem 0rem;
+  width:22rem;
+  height:26rem;
+}
+.signin_card{
+  margin:auto 0.5rem auto ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:30rem;
+  height: 30rem;
+  background-color: rgb(95, 164, 166);
+  border-radius:3.5rem ;
+  color:white;
+}
+.signin_card h1{
+  font-family: 'Patua One', cursive;
+  font-weight: 600;
+  text-align: center;
+  color:rgb(0, 64, 72);
+  text-shadow: 1px 3px 2px rgba(0,0,0,0.3),0px -2px 4px rgba(255,255,255,0.3);
+  width:20rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 2rem;
+  border-bottom:2px solid white;
+}
+.loginEnter{
+  font-weight: 500;
+  width:20rem;
+  font-family: 'Vollkorn', serif;
+  color: white;
+  display: flex;
+  font-size: 1.125rem;
+}
+.loginSubmit{
+  width: 20rem;
+  background-color: darkslategray;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.crossIcon{
+  margin: -0.5rem -22rem 0rem 0rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width:1200px){
+  *{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width:1020px){
+  *{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:991px){
+  *{
+    font-size: 13px;
+  }
+  .nav-links{
+    padding: 0.5rem 0.8rem;
+  }
+  .nav-item{
+    margin:0.5rem 0rem;
+  }
+}
+
+@media screen and (max-width:888px){
+  *{
+     font-size: 14px;
+   }
+   .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 47rem;
+   }
+   #search{
+    max-width: 25rem;
+    width:70vw;
+   }
+   .card-body{
+    margin: 0rem auto 1rem
+   } 
+   .cartoon_dash{
+    width:25rem;
+    height:25rem;
+   }
+   .aboutFont{
+    font-size: 1rem;
+   }
+   .CopyRight{
+    font-size: 1.15rem;
+    left: 20%;
+   }
+}
+
+@media screen and (max-width:666px){
+  *{
+    font-size: 12px;
+  }
+  .grid-container{
+    max-width: 42rem;
+   }
+   .navBrand{
+    font-size: 1.7rem;
+  }
+  .nav-item{
+    font-size: 1.3rem;
+  }
+  .home{
+    margin: 12rem auto;
+  }
+}
+
+@media screen and (max-width:570px){
+  *{
+    font-size: 10px;
+  }
+  .grid-container{
+    max-width: 42rem;
+   }
+   .home{
+    margin: 15rem auto;
+  }
+}
+
+@media screen and (max-width:480px){
+  *{
+    font-size: 9px;
+  }
+  .grid-container{
+    max-width: 42rem;
+   }
+   .navBrand{
+    font-size: 1.8rem;
+  }
+  .nav-item{
+    font-size: 1.5rem;
+  }
+  .home{
+    margin: 20rem auto;
+  }
+  .cartoon_dash{
+    width:0rem;
+    height:0rem;
+   }
+   .aboutFont{
+    font-size: 1.6rem;
+   }
+   .Dashboard_conatiner{
+    width:100%;
+    padding: 3rem;
+    background: linear-gradient( rgba(212, 212, 212, 0.5), rgba(212, 212, 212, 0.5) ), url("./component/image/dashBoard.png");
+    background-size: 100% 100%; 
+   }
+   .CopyRight{
+    font-size: 1.25rem;
+    left: 17%;
+    color: rgb(93, 92, 92);
+   }
+   .signin_card{
+    margin: auto auto;
+   }
+   #loginImg {
+    margin: 0rem 0rem;
+    width: 0rem;
+    height: 0rem;
+   }
+   .loginContainer{
+    max-width: 31rem;
+   }
+}
+
+@media screen and (max-width:420px){
+  *{
+    font-size: 10px;
+  }
+  .grid-container{
+    max-width: 42rem;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .card-body{
+    width: 25rem;
+   }
+   #search{
+    max-width: 13rem;
+    width:70vw;
+    margin-right: 1rem;
+   }
+   .home h1{
+    font-size: 3rem;
+   }
+   .home p{
+    font-size: 1.5rem;
+   }
+   .homeBtn-container {
+    padding: 0.2rem 5rem;
+   }
+}
+
