@@ -10,3 +10,7 @@ export const DEL_SHARE_NOTE = "DEL_SHARE_NOTE"
 export const LOGIN_USER = "LOGIN_USER";
 export const SIGNUP_USER = "SIGNUP_USER";
 export const LOGOUT_USER = "LOGOUT_USER";
+
+export const LOADING_SPINNER_ON = "LOADING_SPINNER_ON";
+export const LOADING_SPINNER_OFF = "LOADING_SPINNER_OFF";
+
