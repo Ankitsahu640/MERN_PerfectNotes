@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import {RxCross2} from 'react-icons/rx';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { signUpUser } from '../redux/Users/action';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Spinner from './Spinner';
 
 function SignUp() {
   const dispatch = useDispatch();
+  const loading = useSelector(state=>state.load);
   const navigate = useNavigate();
   const [user,setUser] = useState({name:"",email:"",password:""});
   // const auth = useSelector(state=>state.user);
@@ -46,6 +48,7 @@ function SignUp() {
 
   return (
     <div className="editor">
+      {loading && <Spinner/>}
       <div className="loginContainer">
         <div className="loginImage">
           <img src={require("./image/loginImg.png")} id="loginImg" alt="planningImage" />
