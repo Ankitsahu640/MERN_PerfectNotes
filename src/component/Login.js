@@ -4,11 +4,13 @@ import {RxCross2} from 'react-icons/rx';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../redux/Users/action';
 import { ToastContainer, toast } from 'react-toastify';
+import Spinner from './Spinner'
 import 'react-toastify/dist/ReactToastify.css';
 
 
 function Login() {
 
+  const loading = useSelector(state=>state.load);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [user,setUser] = useState({email:"",password:""});
@@ -40,6 +42,7 @@ function Login() {
 
   return (
     <div className="editor">
+      {loading && <Spinner/>}
       <div className="loginContainer">
         <div className="loginImage">
           <img src={require("./image/loginImg.png")} id="loginImg" alt="planningImage" />
