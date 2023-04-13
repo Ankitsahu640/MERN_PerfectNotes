@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/MERN_PerfectNotes/static/css/main.d7fbf17b.css",
-    "main.js": "/MERN_PerfectNotes/static/js/main.d8eded65.js",
+    "main.js": "/MERN_PerfectNotes/static/js/main.67026d48.js",
     "static/js/787.e3feec92.chunk.js": "/MERN_PerfectNotes/static/js/787.e3feec92.chunk.js",
     "static/media/woman-taking-notes.jpg": "/MERN_PerfectNotes/static/media/woman-taking-notes.b7e351bd0492a14fc8b2.jpg",
     "static/media/dashBoard.png": "/MERN_PerfectNotes/static/media/dashBoard.c973c1b341ae670c7dec.png",
     "static/media/loginImg.png": "/MERN_PerfectNotes/static/media/loginImg.49424f0bc78d54128f4c.png",
     "index.html": "/MERN_PerfectNotes/index.html",
     "main.d7fbf17b.css.map": "/MERN_PerfectNotes/static/css/main.d7fbf17b.css.map",
-    "main.d8eded65.js.map": "/MERN_PerfectNotes/static/js/main.d8eded65.js.map",
+    "main.67026d48.js.map": "/MERN_PerfectNotes/static/js/main.67026d48.js.map",
     "787.e3feec92.chunk.js.map": "/MERN_PerfectNotes/static/js/787.e3feec92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7fbf17b.css",
-    "static/js/main.d8eded65.js"
+    "static/js/main.67026d48.js"
   ]
 }
