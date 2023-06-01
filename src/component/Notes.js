@@ -73,7 +73,7 @@ function Notes(props){
       <div className="card col card-body" onClick={(e)=>{ShowNotes(note)}}>
       <span className="position-absolute translate-middle  bg-secondary badge rounded-pill text-bg-secondary" style={{top:"0.4rem",right:"-1.8rem"}}>{note.tag}</span>
           <h5 className="card-title">{note.title}</h5>
-          <p className="card-text">{note.discription}</p>
+          <p className="card-text"><i>{note.discription}</i></p>
           <hr/>
           <p className="cardDate">
             <div><small className="text-muted">{date}</small></div>
