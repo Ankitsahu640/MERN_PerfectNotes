@@ -154,8 +154,8 @@ function NotePage() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body open-note container">
-                        <h3 className='card-title'>{showNote.title}</h3>
-                        <h5 className='card-discription'>{showNote.discription}</h5>
+                        <h1 className='card-title'>{showNote.title}</h1>
+                        <h4 className='card-discription'><i>{showNote.discription}</i></h4>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
